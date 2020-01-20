@@ -1,14 +1,4 @@
-<html>
-
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-  <link rel="stylesheet" href="https://pattern.kivan-works.com/fonts/kredit.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</head>
-
-<style type="text/css">
-  * {
+* {
   background-repeat: no-repeat;
 }
 
@@ -18,37 +8,23 @@ html {
   overflow: hidden;
 }
 
-    
- 
-
 body {
   height: 100%;
   display: flex;
-  background: linear-gradient(125deg, #000000, #585858);
-  opacity: 0;
-
+  background: linear-gradient(125deg, #fbd7e5, #bdf4fa);
 }
 
 .card_body {
   padding: 0.75rem 1.75rem;
-
-
 }
 .active .floating:before {
-  opacity: 0;
-  transition: 500ms;
-}
-
-.active {
   opacity: 1;
-}
-
-.notactive {
-  opacity: 0;
+  transition: 500ms;
 }
 .floating:before {
   font-family: "Quicksand";
   font-weight: bold;
+  content: "Keep Moving Your Mouse!";
   width: 100%;
   text-align: center;
   font-size: 2rem;
@@ -70,7 +46,7 @@ body {
   border-radius: 8px;
   transform-style: preserve-3d;
   transform-origin: 50% 50%;
-  background: linear-gradient(145deg, #000000, #cb0003);
+  background: linear-gradient(145deg, #4684c1, #343174);
   transform: rotateX(17deg) rotateY(18deg);
 }
 
@@ -96,25 +72,7 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='50px' x='0px' y='0px' viewBox='0 0 40 40' style='enable-background:new 0 0 40 40;' xml:space='preserve'%3E%3Cg id='surface1'%3E%3Cpath fill='%23F5CE85' d='M8.9,34.5c-6.4,0.1-6.4,0.1-6.4-6.4V11.9c0-3.5-0.1-6.4,3.4-6.4h25.3c6.4,0,6.4,0,6.4,6.4v16.3 c0,6.4,0,6.4-6.4,6.4L8.9,34.5z'/%3E%3Cpath fill='%23967A44' d='M31.1,6C37,6,37,6,37,11.9v16.3c0,5.9,0,5.9-5.9,5.9H8.9c-5.9,0-5.9,0-5.9-6V11.9C3,8.2,2.7,6,6,6H31.1 M31.1,5H9.2C2.3,5,2,5,2,11.9v16.3C2,35,2,35,8.9,35h22.3c6.9-0.1,6.9-0.1,6.9-6.9V11.9C38.1,5,38.1,5,31.1,5z'/%3E%3Cpath fill='%23967A44' d='M29,35c-3.3,0-6-2.7-6-6s2.7-6,6-6h8.5v1H29c-2.8,0-5,2.2-5,5s2.2,5,5,5V35z'/%3E%3Cpath fill='%23967A44' d='M11,35v-1c2.8,0,5-2.2,5-5s-2.2-5-5-5H2.5v-1H11c3.3,0,6,2.7,6,6S14.3,35,11,35z'/%3E%3Cpath fill='%23967A44' d='M37.5,17H27c-2.2,0-4-1.8-4-4s1.8-4,4-4h2.1v1H27c-1.7,0-3,1.3-3,3s1.3,3,3,3h10.5V17z'/%3E%3Cpath fill='%23967A44' d='M28,16h1v7.5h-1V16z'/%3E%3Cpath fill='%23967A44' d='M13,17H2.5v-1H13c1.7,0,3-1.3,3-3s-1.3-3-3-3h-2.1V9H13c2.2,0,4,1.8,4,4S15.2,17,13,17z'/%3E%3Cpath fill='%23967A44' d='M11,16h1v7.5h-1V16z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-
-
 .paywave {
-  transform: translateZ(30px);
-  float: right;
-  position: absolute;
-  margin: 15px 5px;
-  top: 0;
-  right: -50px;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
-  filter: drop-shadow(-6.4px 6.2px 8px rgba(0, 0, 0, 0.6));
-  height: 100px;
-  width: 100px;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='56' viewBox='0 0 46 56'%3E%3Ctitle%3EContactlessIndicator 000%3C/title%3E%3Cpath fill='none' stroke='%23FFF' stroke-width='6' stroke-linecap='round' d='m35,3a50,50 0 0,1 0,50M24,8.5a39,39 0 0,1 0,39M13.5,13.55a28.2,28.5 0 0,1 0,28.5M3,19a18,17 0 0,1 0,18'/%3E%3C/svg%3E");
-}
-
-
-.git {
   transform: translateZ(30px);
   float: right;
   position: absolute;
@@ -126,7 +84,7 @@ body {
   height: 50px;
   width: 50px;
   background-repeat: no-repeat;
-  background-image: url("https://i.imgur.com/SKFBgRz.png");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='56' viewBox='0 0 46 56'%3E%3Ctitle%3EContactlessIndicator 000%3C/title%3E%3Cpath fill='none' stroke='%23FFF' stroke-width='6' stroke-linecap='round' d='m35,3a50,50 0 0,1 0,50M24,8.5a39,39 0 0,1 0,39M13.5,13.55a28.2,28.5 0 0,1 0,28.5M3,19a18,17 0 0,1 0,18'/%3E%3C/svg%3E");
 }
 
 .paypal_center {
@@ -139,7 +97,7 @@ body {
   margin-left: -75px;
   z-index: 1;
   filter: drop-shadow(-6.4px 6.2px 8px rgba(0, 0, 0, 0.6));
-  background-image: url("https://i.imgur.com/SgVEwK8.png");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='150px' height='252px' viewBox='0 0 256 302' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' preserveAspectRatio='xMidYMid'%3E%3Cg%3E%3Cpath d='M217.168476,23.5070146 C203.234077,7.62479651 178.045612,0.815753338 145.823355,0.815753338 L52.3030619,0.815753338 C45.7104431,0.815753338 40.1083819,5.6103852 39.0762042,12.1114399 L0.136468302,259.076601 C-0.637664968,263.946149 3.13311322,268.357876 8.06925331,268.357876 L65.804612,268.357876 L80.3050438,176.385849 L79.8555471,179.265958 C80.8877248,172.764903 86.4481659,167.970272 93.0324607,167.970272 L120.46841,167.970272 C174.366398,167.970272 216.569147,146.078116 228.897012,82.7490197 C229.263268,80.8761167 229.579581,79.0531577 229.854273,77.2718188 C228.297683,76.4477414 228.297683,76.4477414 229.854273,77.2718188 C233.525163,53.8646924 229.829301,37.9325302 217.168476,23.5070146' fill='%2327346A'%3E%3C/path%3E%3Cpath d='M102.396976,68.8395929 C103.936919,68.1070797 105.651665,67.699203 107.449652,67.699203 L180.767565,67.699203 C189.449511,67.699203 197.548776,68.265236 204.948824,69.4555699 C207.071448,69.7968545 209.127479,70.1880831 211.125242,70.6375799 C213.123006,71.0787526 215.062501,71.5781934 216.943728,72.1275783 C217.884341,72.4022708 218.808307,72.6852872 219.715624,72.9849517 C223.353218,74.2002577 226.741092,75.61534 229.854273,77.2718188 C233.525163,53.8563683 229.829301,37.9325302 217.168476,23.5070146 C203.225753,7.62479651 178.045612,0.815753338 145.823355,0.815753338 L52.2947379,0.815753338 C45.7104431,0.815753338 40.1083819,5.6103852 39.0762042,12.1114399 L0.136468302,259.068277 C-0.637664968,263.946149 3.13311322,268.349552 8.0609293,268.349552 L65.804612,268.349552 L95.8875974,77.5798073 C96.5035744,73.6675208 99.0174265,70.4627756 102.396976,68.8395929 Z' fill='%2327346A'%3E%3C/path%3E%3Cpath d='M228.897012,82.7490197 C216.569147,146.069792 174.366398,167.970272 120.46841,167.970272 L93.0241367,167.970272 C86.4398419,167.970272 80.8794007,172.764903 79.8555471,179.265958 L61.8174095,293.621258 C61.1431644,297.883153 64.4394738,301.745495 68.7513129,301.745495 L117.421821,301.745495 C123.182038,301.745495 128.084882,297.550192 128.983876,291.864891 L129.458344,289.384335 L138.631407,231.249423 L139.222412,228.036354 C140.121406,222.351053 145.02425,218.15575 150.784467,218.15575 L158.067979,218.15575 C205.215193,218.15575 242.132193,199.002194 252.920115,143.605884 C257.423406,120.456802 255.092683,101.128442 243.181019,87.5519756 C239.568397,83.4399129 235.081754,80.0437153 229.854273,77.2718188 C229.571257,79.0614817 229.263268,80.8761167 228.897012,82.7490197 L228.897012,82.7490197 Z' fill='%232790C3'%3E%3C/path%3E%3Cpath d='M216.952052,72.1275783 C215.070825,71.5781934 213.13133,71.0787526 211.133566,70.6375799 C209.135803,70.1964071 207.071448,69.8051785 204.957148,69.4638939 C197.548776,68.265236 189.457835,67.699203 180.767565,67.699203 L107.457976,67.699203 C105.651665,67.699203 103.936919,68.1070797 102.4053,68.8479169 C99.0174265,70.4710996 96.5118984,73.6675208 95.8959214,77.5881313 L80.3133678,176.385849 L79.8638711,179.265958 C80.8877248,172.764903 86.4481659,167.970272 93.0324607,167.970272 L120.476734,167.970272 C174.374722,167.970272 216.577471,146.078116 228.905336,82.7490197 C229.271592,80.8761167 229.579581,79.0614817 229.862597,77.2718188 C226.741092,75.623664 223.361542,74.2002577 219.723948,72.9932757 C218.816631,72.6936112 217.892665,72.4022708 216.952052,72.1275783' fill='%231F264F'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
 .card_no {
@@ -217,7 +175,7 @@ body {
   height: 280px;
   border-radius: 8px;
   position: absolute;
-  background: linear-gradient(145deg, #000000, #cb0003);
+  background: linear-gradient(145deg, #4684c1, #343174);
   transform: translateZ(-4px);
 }
 .thickness:nth-child(2) {
@@ -226,82 +184,3 @@ body {
 .thickness:nth-child(3) {
   transform: translateZ(-11px);
 }
-
-
-</style>
-
-
-<script type="text/javascript">
-  
-document.addEventListener('mousemove', function(event){
-  let card_x = getTransformValue(event.clientX,window.innerWidth,56);
-  let card_y = getTransformValue(event.clientY,window.innerHeight,56);
-  let shadow_x = getTransformValue(event.clientX,window.innerWidth,20);
-  let shadow_y = getTransformValue(event.clientY,window.innerHeight,20);
-  let text_shadow_x = getTransformValue(event.clientX,window.innerWidth,28);
-  let text_shadow_y = getTransformValue(event.clientY,window.innerHeight,28);
-  $(".floating").css("transform","rotateX("+card_y/1+"deg) rotateY("+card_x+"deg)");
-  $(".floating").css("box-shadow",-card_x+"px "+card_y/1+"px 55px rgba(0, 0, 0, .55)");
-  $(".svg").css("filter","drop-shadow("+-shadow_x+"px "+shadow_y/1+"px 4px rgba(0, 0, 0, .6))");
-  $(".text").css("text-shadow",-text_shadow_x+"px "+text_shadow_y/1+"px 6px rgba(0, 0, 0, .8)");
-});
-function getTransformValue(v1,v2,value){
-  return ((v1/v2*value-value/2)*1).toFixed(1);                        
-}
-
-
-function myFunction() {
-  var element = document.getElementById("paywave");
-  element.style.backgroundImage = 'url(ok.svg)';
-  element.style.right = '-25px';
-  element.onclick = link();
-
-  //element.classList.remove("active");
-  //element.classList.add("notactive");
-} 
-
-
-function link() {
-}
-
-</script>
-
-<body class="active">
-  <div class="floating">
-    <div class="thickness active"></div>
-    <div class="thickness active"></div>
-    <div class="thickness active"></div>
-    <div class="card_body active">
-    <div class="paypal_center svg active"></div>
-
-
-      <div class="logo svg active"></div>
-      <div class="paywave svg active" id="paywave"></div>
-
-
-      <div class="git svg active" id="git"></div>
-
-      <div class="chips svg active" onclick="myFunction()" style="cursor: pointer;"></div>
-      <div class="card_no text active">
-        9386-4499 9386-4499
-      </div>
-      <div class="valid text active">
-        VALID <br> SINCE
-      </div>
-      <div class="valid_date text active">
-        06/04
-      </div>
-      <div class="holder text active">WILLIAM MACINTOSH</div>
-      <div class="mastercard_icon svg active"></div>
-
-    </div>
-
-  </div>
-</body>
-
-
-<!-- onclick="location.href='socials';" style="cursor: pointer;"-->
-
-
-
-</html>
